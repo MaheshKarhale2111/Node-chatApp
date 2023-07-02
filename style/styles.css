@@ -1,0 +1,56 @@
+body {
+  background-color: aqua;
+}
+.logo {
+  display: block;
+  margin: auto;
+  /* // use display block and margin auto to make it center  */
+  width: 50px;
+  height: 50px;
+}
+
+.container {
+  background-color: purple;
+  max-width: 60%;
+  height: 70vh;
+  margin: auto;
+  padding: 5px 0;
+  border: 3px solid rgb(60, 59, 59);
+  border-radius: 5px;
+  overflow-y: auto;
+  /* box-shadow: 10px 10px 5px 12px black; */
+}
+.message {
+  background-color: rgb(245, 118, 139);
+  max-width: 100%;
+  margin: 10px 10px;
+  border: solid black 2px;
+  border-radius: 5px;
+  padding: 5px 8px;
+}
+.left {
+  float: left;
+  clear: both;
+}
+.right {
+  float: right;
+  clear: both;
+}
+.send-container{
+    text-align: center;
+}
+
+#sendText{
+    height: 30px;
+    width: 55%;
+    margin:10px 0 0 1px;
+    border-radius: 5px;
+    border: 2px solid rgb(60, 59, 59);
+    /* max-width: 10%; */
+}
+.btn{
+    cursor: pointer;
+    border: 2px solid rgb(60, 59, 59);
+    border-radius: 3px;
+    height: 30px;
+}
